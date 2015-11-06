@@ -1,0 +1,321 @@
+body {
+	position: relative;
+	background: rgba(0, 0, 0, 0) url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png") repeat scroll 0 0;
+}
+
+.jumbotron {
+    padding-top: 0;
+	margin-bottom: 20px;
+}
+
+div.form {
+	margin-top: 30px;
+	padding-top: 20px;
+	border-radius: 75px 0 75px 0 !important;
+	border: 5px solid #eee;
+}
+
+#basic-addon2 {
+    min-width: 55px;
+}
+
+#basic-addon2 a {
+	color: inherit;
+}
+
+.range-description li {
+    font-size: small;
+}
+
+.range-description-header {
+    padding-left: 40px;
+	margin-top:5px;
+}
+
+.range-description {
+    padding-left: 50px;
+}
+
+.label-beyaz {
+    background: #fff none repeat scroll 0 0;
+}
+
+.label {
+    color: #2fa4e7 !important;
+}
+
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+}
+
+img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.form-horizontal {
+    border-bottom: 1px solid;
+}
+
+.logo {
+    clear: both;
+    padding-top: 5px;
+}
+	
+/*
+	Material Design Switch
+*/
+
+.material-switch > input[type="checkbox"] {
+    display: none;   
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+
+.label-primary.switch-button {
+    width: 0;
+}
+
+.material-switch {
+    padding: 10px 0 0 5px;
+}
+
+.local, .local:hover {
+    color: inherit;
+    padding-left: 50px;
+	text-decoration: none;
+}
+
+.bootstrap-select {
+    width: 100%;
+}
+
+.btn-default {
+    background-image: none;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+    margin-left: 0;
+}
+
+p.description {
+    font-size: 16px;
+}
+
+.btn.dropdown-toggle.btn-default {
+    border-radius: 0;
+}
+
+#copy-dynamic {
+    width: 55px;
+}
+
+#visit-map {
+    background-color: #eee;
+    border-left: 0 none;
+    width: 55px;
+}
+
+#visit-map:hover {
+    background-color: #ddd;
+}
+
+#helpBlock {
+    margin-bottom: 15px;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+    font-size: 45px;
+}
+
+h3, .h3 {
+    font-size: 22px;
+}
+
+.jumbotron {
+    padding-bottom: 15px;
+}
+
+.code {
+	color: #fff;
+}
+
+.code > a {
+	color: #fff;
+}
+.code > a:hover {
+	color: #fff;
+}
+
+.github {
+	margin-bottom: 5px;
+}
+
+.tip:hover {
+	color:#f00 !important;
+	text-decoration: none;
+}
+
+.tip {
+    cursor: help;
+}
+
+.license {
+	cursor: help;
+}
+
+/*
+	Material Design Switch
+*/
+
+/*
+	Stylish Sliders/Range Selectors
+*/
+
+.range {
+    display: table;
+    position: relative;
+    height: 25px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.range {
+    width: 100%;
+}
+
+#range {
+    border: 1px solid #cccccc;
+    height: 38px;
+	padding: 0 10px;
+}
+
+.range input[type="range"] {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+    -o-appearance: none !important;
+    appearance: none !important;
+
+    width: 100%;
+    background-color: #fff;
+    height: 30px;
+    cursor: pointer;
+}
+.range input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+    -o-appearance: none !important;
+    appearance: none !important;
+
+    width: 11px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0px;
+    background-color: rgb(153, 153, 153);
+}
+
+.range input[type="range"]::-moz-slider-thumb {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+    -o-appearance: none !important;
+    appearance: none !important;
+    
+    width: 11px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0px;
+    background-color: rgb(153, 153, 153);
+}
+
+.range output {
+    display: table-cell;
+    padding: 3px 5px 2px;
+    min-width: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 153, 153);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+.range input[type="range"] {
+    outline: none;
+}
+
+/*
+	Stylish Sliders/Range Selectors
+*/
