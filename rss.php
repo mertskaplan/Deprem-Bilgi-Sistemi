@@ -1,10 +1,6 @@
 <?php
 
-	function find($first, $latest, $text) {
-		@preg_match_all("/" . preg_quote($first, "/") .
-		"(.*?)". preg_quote($latest, "/")."/i", $text, $m);
-		return @$m[1];
-	}
+	include ("functions.php");
 	
 	date_default_timezone_set("Europe/Istanbul");
 	
@@ -27,9 +23,9 @@
 	xmlns:atom=\"http://www.w3.org/2005/Atom\"
 	xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"
 	xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"
+	xmlns:xhtml=\"http://www.w3.org/1999/xhtml\"
 	>
-		
-			<channel>
+				<channel>
 				<title>Deprem Bilgi Sistemi</title>
 				<atom:link href=\"http://deprem.mertskaplan.com/rss\" rel=\"self\" type=\"application/rss+xml\" />
 				<link>http://deprem.mertskaplan.com</link>
@@ -56,7 +52,7 @@
 		$magDot = str_replace(',', '.', $mag[$x]);
 		
 		if		(isset($_GET["local"]) && $_GET["local"] == 1) {
-			if		($local[$x] == "MARMARA DENIZI" || $local[$x] == "AKDENIZ" || $local[$x] == "AKDENİZ") {$localFilter = 1;}
+			if		($local[$x] == "MARMARA DENIZI" || $local[$x] == "AKDENIZ" || $local[$x] == "AKDENİZ" || $local[$x] == "EGE DENIZI" || $local[$x] == "DOGU AKDENIZ") {$localFilter = 1;}
 			else	{$localFilter = 0;}
 		}
 		else	{$localFilter = 0;}
@@ -92,13 +88,103 @@
 				$link = "http://www.openstreetmap.org/#map=12/$lat[$x]/$lon[$x]";
 			}
 			
+			if ($_GET["flash"] == 1 && $mag[$x] >= 5)	{$flash = "⚡";}
+			else				{$flash = "";}
+			
+			$localeRp = str_replace("-",", ",str_replace(")","",str_replace("-(",", ",str_replace(" (",", ",$local[$x]))));
+//			$localeUc = ucwords(strtolower($localeRp));
+			$localeEx = explode(", ", $localeRp);
+			
+			$fileop = file("local.txt", FILE_IGNORE_NEW_LINES);
+			$fileAykiri = file("aykiri.txt", FILE_IGNORE_NEW_LINES);
+			$fileopUp = array_map('strtoupperEN', $fileop);
+
+			for ($y = 0; isset($fileop[$y]); $y++) {
+				if ($localeEx[0] == $fileopUp[$y]) {
+					$localeTR1[$x] = ucwords_tr(strtolowerTR($fileop[$y]));
+					break;
+				}
+			}
+			
+			for ($y = 0; isset($fileop[$y]); $y++) {
+				if ($localeEx[1] == $fileopUp[$y]) {
+					$localeTR2[$x] = ucwords_tr(strtolowerTR($fileop[$y]));
+					break;
+				}
+			}
+
+			for ($y = 0; isset($fileop[$y]); $y++) {
+				if ($localeEx[2] == $fileopUp[$y]) {
+					$localeTR3[$x] = ucwords_tr(strtolowerTR($fileop[$y]));
+					break;
+				}
+			}
+			
+			if (!isset($localeTR1[$x])) {
+				$localeTR1[$x] = ucwords(strtolower($localeEx[0]));
+				
+				if (in_array($localeEx[0],$fileAykiri)) {}
+				else {
+					$open = fopen("aykiri.txt","a");
+					$write = "$localeEx[0]\n";
+					fwrite($open, $write);
+					fclose($open);
+				}
+			}
+			
+			if (!isset($localeTR2[$x])) {
+				$localeTR2[$x] = ucwords(strtolower($localeEx[1]));
+				
+				if (in_array($localeEx[1],$fileAykiri)) {}
+				else {
+					$open = fopen("aykiri.txt","a");
+					$write = "$localeEx[1]\n";
+					fwrite($open, $write);
+					fclose($open);
+				}
+			}
+			
+			if (!isset($localeTR3[$x])) {
+				$localeTR3[$x] = ucwords(strtolower($localeEx[2]));
+				
+				if (in_array($localeEx[2],$fileAykiri)) {}
+				else {
+					$open = fopen("aykiri.txt","a");
+					$write = "$localeEx[2]\n";
+					fwrite($open, $write);
+					fclose($open);
+				}
+			}
+	
+			if (isset($localeEx[0])) {
+				if ($_GET["hashtag"] == 1) {
+					$hashtag1 = hashtag($localeTR1[$x]);
+				}
+			}
+
+			if (isset($localeEx[1])) {
+				$separator1 = ", ";
+				if ($_GET["hashtag"] == 1) {
+					$hashtag2 = hashtag($localeTR2[$x]);
+				}
+			}
+			else {$separator1 = ""; $hashtag2 = "";}
+			
+			if (isset($localeEx[2])) {
+				$separator2 = ", ";
+				if ($_GET["hashtag"] == 1) {
+					$hashtag3 = hashtag($localeTR3[$x]);
+				}
+			}
+			else {$separator2 = ""; $hashtag3 = "";}
+			
 			echo "
 					<item>
-						<title>$mag[$x] - $local[$x]</title>
+						<title>$mag[$x] - $hashtag1$localeTR1[$x]$separator1$hashtag2$localeTR2[$x]$separator2$hashtag3$localeTR3[$x]</title>
 						<link>$link</link>
 						<guid>$link</guid>
 						<pubDate>$dateFormat $time[$x] +0200</pubDate>
-						<description>". date('j ') . $month . date(' Y ') . $day ." günü $time[$x] sularında merkez üssü $local[$x] olan $mag[$x] büyüklüğünde deprem meydana geldi.</description>
+						<description>$flash ". date('j ') . $month . date(' Y ') . $day ." günü $time[$x] sularında merkez üssü $hashtag1$localeTR1[$x]$separator1$hashtag2$localeTR2[$x]$separator2$hashtag3$localeTR3[$x] olan $mag[$x] büyüklüğünde deprem meydana geldi.</description>
 						<source url=\"http://www.koeri.boun.edu.tr/scripts/sondepremler.asp\">BOĞAZİÇİ ÜNİVERSİTESİ KANDİLLİ RASATHANESİ VE DEPREM ARAŞTIRMA ENSTİTÜSÜ (KRDAE) BÖLGESEL DEPREM-TSUNAMİ İZLEME VE DEĞERLENDİRME MERKEZİ (BDTİM)</source>
 					</item>
 			";
@@ -108,7 +194,6 @@
 	echo "
 			</channel>
 		</rss>
-	
 	";
 	
 ?>

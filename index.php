@@ -29,10 +29,10 @@
 					<div class="col-sm-offset-1 col-md-offset-2 col-lg-8"></div>
 						<div class="jumbotron animated shake form col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-8">
 							<h1 class="text-center">Deprem Bilgi Sistemi</h1>
-							<p class="description text-center">Haberciler ve geliştiriciler için son depremlerin bilgilerini veren özelleştirilebilir RSS yayını.</p>
+							<p class="description text-center">Haberciler ve geliştiriciler icin son depremlerin bilgilerini veren özelleştirilebilir RSS yayını.</p>
 							<div class="input-group">
 								<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></span>
-								<input type="text" class="form-control" id="dynamic" value="http://deprem.mertskaplan.com/rss&mag={{size/10}}&map={{maps}}&local={{local}}" autofocus>
+								<input type="text" class="form-control" id="dynamic" value="http://deprem.mertskaplan.com/rss&mag={{size/10}}&map={{maps}}&local={{local}}&hashtag={{hashtag}}&flash={{flash}}" autofocus>
 								<span class="input-group-btn">
 									<button class="btn btn-primary" id="copy-dynamic" type="button" data-clipboard-action="copy" data-clipboard-target="#dynamic"><span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span></button>
 								</span>
@@ -46,6 +46,23 @@
 									<div class="material-switch col-sm-9 text-left">
 										<input id="someSwitchOptionPrimary" name="someSwitchOption001" type="checkbox" ng-model="local" ng-true-value="'1'" ng-false-value="'0'">
 										<label for="someSwitchOptionPrimary" class="label-primary switch-button"></label> <a class="local" ng-if="(local == 0)">Yerleşim yeri dışındaki depremleri de <strong>göster</strong>.</a><a class="local" ng-if="(local != 0)">Yerleşim yeri dışındaki depremleri <strong>gösterme</strong>.</a>
+									</div>
+									<span id="yerlesim-uyari" class="yerlesim-uyari col-sm-9 col-sm-offset-3"><strong>Uyarı:</strong> Denizlerde meydana gelen ancak yerleşim yerlerini etkileyecek büyüklükteki depremleri kaçırabilirsiniz.</span>
+								</div>
+								
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="size">Hashtag:</label>
+									<div class="material-switch col-sm-9 text-left">
+										<input id="someSwitchOptionPrimary2" name="someSwitchOption002" type="checkbox" ng-model="hashtag" ng-true-value="'1'" ng-false-value="'0'">
+										<label for="someSwitchOptionPrimary2" class="label-primary switch-button"></label> <a class="local" ng-if="(hashtag == 0)">Tek kelimelik yerleşim yerlerinin başına hashtag (#) <strong>ekleme</strong>.</a><a class="local" ng-if="(hashtag != 0)">Tek kelimelik yerleşim yerlerinin başına hashtag (#) <strong>ekle</strong>.</a>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="size">Flash:</label>
+									<div class="material-switch col-sm-9 text-left">
+										<input id="someSwitchOptionPrimary3" name="someSwitchOption003" type="checkbox" ng-model="flash" ng-true-value="'1'" ng-false-value="'0'">
+										<label for="someSwitchOptionPrimary3" class="label-primary switch-button"></label> <a class="local" ng-if="(flash == 0)">5 ve üzeri şiddetteki depremlerde metnin başına flash (⚡) <strong>ekleme</strong>.</a><a class="local" ng-if="(flash != 0)">5 ve üzeri şiddetteki depremlerde metnin başına flash (⚡) <strong>ekle</strong>.</a>
 									</div>
 								</div>
 								
@@ -151,7 +168,8 @@
 								<img width="86" height="86" class="grayscale" src="/img/here-logo.svg">
 								<img width="86" height="86" class="grayscale" src="/img/wikimapia-logo.svg">
 								<img width="86" height="86" class="grayscale" src="/img/waze-logo.svg">
-							</div>							
+							</div>	
+							<p class="source text-center">Deprem verileri (derin bir nefes alın) <a href="http://www.koeri.boun.edu.tr/sismo/2/tr/" target="_blank">Boğaziçi Üniversitesi Kandilli Rasathanesi ve Deprem Araştırma Enstitüsü Bölgesel Deprem-Tsunami İzleme ve Değerlendirme Merkezi</a>'nden alınmaktadır.</p>							
 						</div>
 					</div>
 					<div class="row github">
