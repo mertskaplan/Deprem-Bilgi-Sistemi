@@ -17,6 +17,9 @@ Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini ve
     * Here Maps
     * Waze Live Map
 
+### Altyapı
+Sistem için temelde **PHP** olmak üzere, **HTML5**, **CSS3**, **JS** ve **XML** dilleri ile **Bootstrap** ve **AngularJS** kütüphanelerinden yararlanılmıştır.
+
 ### Özelleştirme Methodu
 Özelleştirmeler için PHP'deki **GET methodu** kullanılmıştır. Örnek olarak aşağıda varsayılan GET bağlantısına ait değerler gösterilmektedir.
 
