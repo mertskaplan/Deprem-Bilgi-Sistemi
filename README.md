@@ -17,9 +17,6 @@ Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini ve
     * Here Maps
     * Waze Live Map
 
-### Altyapı
-Sistem için temelde **PHP** olmak üzere, **HTML5**, **CSS3**, **JS** ve **XML** dilleri ile **Bootstrap** ve **AngularJS** kütüphanelerinden yararlanılmıştır.
-
 ### Özelleştirme Methodu
 Özelleştirmeler için PHP'deki **GET methodu** kullanılmıştır. Örnek olarak aşağıda varsayılan GET bağlantısına ait değerler gösterilmektedir.
 
@@ -27,6 +24,9 @@ Sistem için temelde **PHP** olmak üzere, **HTML5**, **CSS3**, **JS** ve **XML*
 
 **Not 1:** İlk GET değeri için kullanılan "**?**" karakterine gerek kalmaması için **[.htaccess](https://github.com/mertskaplan/Deprem-Bilgi-Sistemi/blob/master/.htaccess)** ile "**&**" karakteri de kullanılabilir hale getirilmiştir.
 **Not 2:** Deprem şiddeti süzgecini belirleyen "**mag**" değeri, normalde "**,**" ile ayrılmasına rağmen adres satırı için "**.**" ile de kullanılabilir hale getirilmiştir. Örnek:  `mag=3,8` = `mag=3.8`
+
+### Altyapı
+Sistem için temelde **PHP** olmak üzere, **HTML5**, **CSS3**, **JS** ve **XML** dilleri ile **Bootstrap** ve **AngularJS** kütüphanelerinden yararlanılmıştır.
 
 ### Değişiklikler
 ##### v2.0
