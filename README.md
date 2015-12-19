@@ -7,6 +7,7 @@ Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini ve
 * **Yerleşim yeri dışındaki depremleri göstermeme seçeneği:** Özellikle denizlerde meydana gelen depremlerin liste dışına alınması ile insanları daha çok etkileyebilecek depremlerin öne çıkması hedeflenmiştir.
 * **Hashtag ekleme seçeneği:** Yerleşim yerlerinin başına hashtag (#) ekleme seçeneği ile hashtag kullanılan platformlarda kullanım kolaylığı yaratmak amaçlanmıştır. Hashtaglerin bölünmemesi için bu özellik sadece tek kelimeden oluşan yer adları için eklenmiştir. 
 * **Flash ekleme seçeneği:** Magnitüd ölçeğine göre (Richter ölçeği) 5 ve üzeri şiddetteki depremler için metinlerin başına flash karakteri (⚡) eklenerek daha önemli depremlerin görünürlülüğünün arttırılması yoluna gidilmiştir.
+* **Deprem şiddeti seçeneği:** Belirli büyüklükten küçük depremler gösterilmeyerek daha iyi bir hedefleme yapılması sağlanmıştır.
 * **Harita seçeneği:** Depremlerin konum bilgilerinin işaretlenmesi için farklı online harita sistemleri için bağlantılar eklenerek çeşitlilik sağlanmıştır. Bu harita sistemleri şöyledir:
     * OpenStreetMap (*varsayılan*)
     * Google Maps
@@ -15,7 +16,6 @@ Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini ve
     * Bing Haritalar
     * Here Maps
     * Waze Live Map
-* **Deprem şiddeti seçeneği:** Belirli büyüklükten küçük depremler gösterilmeyerek daha iyi bir hedefleme yapılması sağlanmıştır.
 
 ### Özelleştirme Methodu
 Özelleştirmeler için PHP'deki **GET methodu** kullanılmıştır. Örnek olarak aşağıda varsayılan GET bağlantısına ait değerler gösterilmektedir.
@@ -42,5 +42,4 @@ Deprem verileri, [*Boğaziçi Üniversitesi Kandilli Rasathanesi ve Deprem Araş
 Sistemin oluşturulması için harcanan zaman ve kullanılan bilgiyi desteklemek, benzer projelerin ortaya çıkmasını sağlamak için [**Paypal ile bağış yap**](https://www.paypal.me/mertskaplan/10)abilirsin.
 
 ### İletişim
-Web: [mertskaplan.com](http://mertskaplan.com)
-Mail: mail@mertskaplan.com
+Web: [mertskaplan.com](http://mertskaplan.com) | Mail: mail@mertskaplan.com
