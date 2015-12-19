@@ -29,7 +29,7 @@
 					<div class="col-sm-offset-1 col-md-offset-2 col-lg-8"></div>
 						<div class="jumbotron animated shake form col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-8">
 							<h1 class="text-center">Deprem Bilgi Sistemi</h1>
-							<p class="description text-center">Haberciler ve geliştiriciler icin son depremlerin bilgilerini veren özelleştirilebilir RSS yayını.</p>
+							<p class="description text-center">Haberciler ve geliştiriciler için son depremlerin bilgilerini veren özelleştirilebilir RSS yayını.</p>
 							<div class="input-group">
 								<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-link" aria-hidden="true"></span></span>
 								<input type="text" class="form-control" id="dynamic" value="http://deprem.mertskaplan.com/rss&mag={{size/10}}&map={{maps}}&local={{local}}&hashtag={{hashtag}}&flash={{flash}}" autofocus>
