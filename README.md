@@ -46,4 +46,4 @@ Uygulama, [GNU Genel Kamu Lisansı, sürüm 3](https://github.com/mertskaplan/De
 Sistemin oluşturulması için harcanan zaman ve kullanılan bilgiyi desteklemek, benzer projelerin ortaya çıkmasını sağlamak için [**Paypal ile bağış yap**](https://www.paypal.me/mertskaplan/10)abilirsin.
 
 ### İletişim
-Web: [mertskaplan.com](http://mertskaplan.com) | Mail: mail@mertskaplan.com
+Web: [mertskaplan.com](http://mertskaplan.com) | Mail: mail@mertskaplan.com | Twitter: [@mertskaplan](https://twitter.com/mertskaplan)
