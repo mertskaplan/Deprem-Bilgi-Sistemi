@@ -218,6 +218,10 @@ h3, .h3 {
     font-size: 13px !important;
 }
 
+.twitter-button {
+    padding-top: 10px;
+}
+
 /*
 	Material Design Switch
 */

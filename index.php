@@ -170,6 +170,10 @@
 								<img width="86" height="86" class="grayscale" src="/img/waze-logo.svg">
 							</div>	
 							<p class="source text-center">Deprem verileri (derin bir nefes alın) <a href="http://www.koeri.boun.edu.tr/sismo/2/tr/" target="_blank">Boğaziçi Üniversitesi Kandilli Rasathanesi ve Deprem Araştırma Enstitüsü Bölgesel Deprem-Tsunami İzleme ve Değerlendirme Merkezi</a>'nden alınmaktadır.</p>							
+							<p class="twitter-button text-center">
+								<a href="https://twitter.com/DepremBilgiSis" class="twitter-follow-button" data-show-count="false" data-lang="tr" data-size="large" data-dnt="true">Takip et: @DepremBilgiSis</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+							</p>
 						</div>
 					</div>
 					<div class="row github">
