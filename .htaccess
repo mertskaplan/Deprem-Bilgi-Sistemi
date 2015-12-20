@@ -1,6 +1,4 @@
 RewriteEngine On
 RewriteBase /
 RewriteRule ^rss$ rss.php [NC]
-RewriteRule ^rss&mag=(.*)$ rss.php?mag=$1 [NC]
-RewriteRule ^rss&mag=(.*)$ rss.php?local=$1 [NC]
-RewriteRule ^rss&mag=(.*)$ rss.php?map=$1 [NC]
+RewriteRule ^rss&(.*)$ rss.php?$1 [NC]
