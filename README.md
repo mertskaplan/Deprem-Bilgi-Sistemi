@@ -23,6 +23,7 @@ Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini ve
     /rss&mag=0&map=o&local=0&hashtag=0&flash=0
 
 **Not 1:** İlk GET değeri için kullanılan "**?**" karakterine gerek kalmaması için **[.htaccess](https://github.com/mertskaplan/Deprem-Bilgi-Sistemi/blob/master/.htaccess)** ile "**&**" karakteri de kullanılabilir hale getirilmiştir.
+
 **Not 2:** Deprem şiddeti süzgecini belirleyen "**mag**" değeri, normalde "**,**" ile ayrılmasına rağmen adres satırı için "**.**" ile de kullanılabilir hale getirilmiştir. Örnek:  `mag=3,8` = `mag=3.8`
 
 ### Altyapı
@@ -38,7 +39,7 @@ Sistem için temelde **PHP** olmak üzere, **HTML5**, **CSS3**, **JS** ve **XML*
 Deprem verileri, [*Boğaziçi Üniversitesi Kandilli Rasathanesi ve Deprem Araştırma Enstitüsü Bölgesel Deprem-Tsunami İzleme ve Değerlendirme Merkezi*](http://www.koeri.boun.edu.tr/sismo/2/tr/)'nden alınmaktadır.
 
 ### Lisans
-[GNU Genel Kamu Lisansı, sürüm 3](https://github.com/mertskaplan/Deprem-Bilgi-Sistemi/blob/master/LICENSE) altında yayınlandı.
+Uygulama, [GNU Genel Kamu Lisansı, sürüm 3](https://github.com/mertskaplan/Deprem-Bilgi-Sistemi/blob/master/LICENSE) altında yayınlandı. Ancak **ticari kullanımlarda** verilerin kaynağı olan ***Boğaziçi Üniversitesi Rektörlüğü***’nün yazılı izni ve onayı alınmalıdır.
 
 ### Destek Ol
 
