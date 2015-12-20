@@ -39,7 +39,7 @@ Sistem için temelde **PHP** olmak üzere, **HTML5**, **CSS3**, **JS** ve **XML*
 Deprem verileri, [*Boğaziçi Üniversitesi Kandilli Rasathanesi ve Deprem Araştırma Enstitüsü Bölgesel Deprem-Tsunami İzleme ve Değerlendirme Merkezi*](http://www.koeri.boun.edu.tr/sismo/2/tr/)'nden alınmaktadır.
 
 ### Lisans
-Uygulama, [GNU Genel Kamu Lisansı, sürüm 3](https://github.com/mertskaplan/Deprem-Bilgi-Sistemi/blob/master/LICENSE) altında yayınlandı. Ancak **ticari kullanımlarda** verilerin kaynağı olan ***Boğaziçi Üniversitesi Rektörlüğü***’nün yazılı izni ve onayı alınmalıdır.
+Uygulama, [GNU Genel Kamu Lisansı, sürüm 3](https://github.com/mertskaplan/Deprem-Bilgi-Sistemi/blob/master/LICENSE) altında yayınlandı. Ancak **ticari kullanımlarda** verilerin kaynağı olan *Boğaziçi Üniversitesi Rektörlüğü*’nün yazılı izni ve onayı alınmalıdır.
 
 ### Destek Ol
 
