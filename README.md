@@ -1,4 +1,4 @@
-# Deprem Bilgi Sistemi
+# Deprem Bilgi Sistemi - v3.0
 Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini veren özelleştirilebilir **RSS** yayını.
 
 > **Adres:** http://deprem.mertskaplan.com/
