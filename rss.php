@@ -1,7 +1,6 @@
 <?php
 
 	include ("functions.php");
-	
 	date_default_timezone_set("Europe/Istanbul");
 	
 	$site = "http://m.koeri.boun.edu.tr/dbs/deprem-listesi-touch.asp";
@@ -12,7 +11,6 @@
 	$mag = find("&mag=", "&", $content);
 	$lat = find("&lat=", "&", $content);
 	$lon = find("&lon=", "&", $content);
-	
 	
 	header("Content-Type: application/xml; UTF-8");
 	
@@ -25,7 +23,7 @@
 	xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"
 	xmlns:xhtml=\"http://www.w3.org/1999/xhtml\"
 	>
-				<channel>
+			<channel>
 				<title>Deprem Bilgi Sistemi</title>
 				<atom:link href=\"http://deprem.mertskaplan.com/rss\" rel=\"self\" type=\"application/rss+xml\" />
 				<link>http://deprem.mertskaplan.com</link>
@@ -36,8 +34,16 @@
 				<sy:updatePeriod>hourly</sy:updatePeriod>
 				<sy:updateFrequency>1</sy:updateFrequency>
 				<generator>http://deprem.mertskaplan.com/</generator>
+				<image>
+					<title>Deprem Bilgi Sistemi</title>
+					<url>http://deprem.mertskaplan.com/img/logo.png</url>
+					<link>http://deprem.mertskaplan.com</link>
+					<width>140</width>
+					<height>140</height>
+					<description>Haberciler ve geliştiriciler için son depremlerin bilgilerini veren özelleştirilebilir RSS yayını.</description>
+				</image>			
 	";
-	
+
 	$days = array("Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar");
 	$months = array("Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık");
 	
@@ -49,11 +55,28 @@
 
 	for ($x=0; $x <= 140; $x = $x+2) {
 		
-		$magDot = str_replace(',', '.', $mag[$x]);
-		
-		if		(isset($_GET["local"]) && $_GET["local"] == 1) {
-			if		($local[$x] == "MARMARA DENIZI" || $local[$x] == "AKDENIZ" || $local[$x] == "AKDENİZ" || $local[$x] == "EGE DENIZI" || $local[$x] == "DOGU AKDENIZ") {$localFilter = 1;}
-			else	{$localFilter = 0;}
+		$magDot = str_replace(',', '.', $mag[$x]); 
+			
+		if		(isset($_GET["local"]) && $_GET["local"] == 1) {			
+			if	(
+					strstr($local[$x],"AKDENIZ") ||
+					strstr($local[$x],"AKDENİZ") ||
+					strstr($local[$x],"KARADENIZ") ||
+					strstr($local[$x],"EGE DENIZI") ||
+					strstr($local[$x],"DOGU AKDENIZ") ||
+					strstr($local[$x],"ACIKLARI") ||
+					strstr($local[$x],"YUNANISTAN") ||
+					strstr($local[$x],"GURCISTAN") ||
+					strstr($local[$x],"GIRIT ADASI (AKDENIZ)") ||
+					strstr($local[$x],"KIBRIS") ||
+					strstr($local[$x],"CYPRUS") ||
+					strstr($local[$x],"GREECE") ||
+					strstr($local[$x],"BULGARISTAN") ||
+					strstr($local[$x],"IRAN") ||
+					strstr($local[$x],"AEGEAN SEA")
+				 )
+				 {$localFilter = 1;}
+			else {$localFilter = 0;}
 		}
 		else	{$localFilter = 0;}
 
@@ -88,16 +111,26 @@
 				$link = "http://www.openstreetmap.org/#map=12/$lat[$x]/$lon[$x]";
 			}
 			
-			if ($_GET["flash"] == 1 && $mag[$x] >= 5)	{$flash = "⚡";}
-			else				{$flash = "";}
+			if ($_GET["flash"] == 1 && $mag[$x] >= 5)	{$flash = "⚡ ";}
+			else {$flash = "";}
 			
-			$localeRp = str_replace("-",", ",str_replace(")","",str_replace("-(",", ",str_replace(" (",", ",$local[$x]))));
-//			$localeUc = ucwords(strtolower($localeRp));
+			if (strpos($local[$x], "*")) {
+				$localeSTR = strstr($local[$x], '*', true);
+			}
+			elseif (strpos($local[$x], "[")) {
+				$localeSTR = strstr($local[$x], '[', true);
+			}
+			else {
+				$localeSTR = $local[$x];
+			}
+			
+			$localeRp = str_replace("-",", ",str_replace(")","",str_replace("-(",", ",str_replace(" (",", ",str_replace("- (",", ",$localeSTR)))));
 			$localeEx = explode(", ", $localeRp);
 			
 			$fileop = file("local.txt", FILE_IGNORE_NEW_LINES);
-			$fileAykiri = file("aykiri.txt", FILE_IGNORE_NEW_LINES);
+			$fileInconsistent = file("inconsistent.txt", FILE_IGNORE_NEW_LINES);
 			$fileopUp = array_map('strtoupperEN', $fileop);
+			$hour = substr($time[$x], 0, 5);
 
 			for ($y = 0; isset($fileop[$y]); $y++) {
 				if ($localeEx[0] == $fileopUp[$y]) {
@@ -123,9 +156,9 @@
 			if (!isset($localeTR1[$x])) {
 				$localeTR1[$x] = ucwords(strtolower($localeEx[0]));
 				
-				if (in_array($localeEx[0],$fileAykiri)) {}
+				if (in_array($localeEx[0],$fileInconsistent)) {}
 				else {
-					$open = fopen("aykiri.txt","a");
+					$open = fopen("inconsistent.txt","a");
 					$write = "$localeEx[0]\n";
 					fwrite($open, $write);
 					fclose($open);
@@ -135,9 +168,9 @@
 			if (!isset($localeTR2[$x])) {
 				$localeTR2[$x] = ucwords(strtolower($localeEx[1]));
 				
-				if (in_array($localeEx[1],$fileAykiri)) {}
+				if (in_array($localeEx[1],$fileInconsistent)) {}
 				else {
-					$open = fopen("aykiri.txt","a");
+					$open = fopen("inconsistent.txt","a");
 					$write = "$localeEx[1]\n";
 					fwrite($open, $write);
 					fclose($open);
@@ -147,9 +180,9 @@
 			if (!isset($localeTR3[$x])) {
 				$localeTR3[$x] = ucwords(strtolower($localeEx[2]));
 				
-				if (in_array($localeEx[2],$fileAykiri)) {}
+				if (in_array($localeEx[2],$fileInconsistent)) {}
 				else {
-					$open = fopen("aykiri.txt","a");
+					$open = fopen("inconsistent.txt","a");
 					$write = "$localeEx[2]\n";
 					fwrite($open, $write);
 					fclose($open);
@@ -184,7 +217,18 @@
 						<link>$link</link>
 						<guid>$link</guid>
 						<pubDate>$dateFormat $time[$x] +0200</pubDate>
-						<description>$flash ". date('j ') . $month . date(' Y ') . $day ." günü $time[$x] sularında merkez üssü $hashtag1$localeTR1[$x]$separator1$hashtag2$localeTR2[$x]$separator2$hashtag3$localeTR3[$x] olan $mag[$x] büyüklüğünde deprem meydana geldi.</description>
+			";
+				if ($_GET["twitter"] == 1) {
+					echo "
+						<description><![CDATA[<div><img width=\"640\" height=\"320\" src=\"http://deprem.mertskaplan.com/img.php?url=https%3A%2F%2Fmaps.googleapis.com%2Fmaps%2Fapi%2Fstaticmap%3Fcenter%3D$lat[$x]%2C$lon[$x]%26zoom%3D8%26size%3D640x320%26format%3Djpg%26maptype%3Droadmap%26markers%3Dcolor%3Ared%7C$lat[$x]%2C$lon[$x]%26markers%3Dsize%3Amid%7Ccolor%3Ablue%7C$localeTR2[$x]%2C$localeTR3[$x]%26markers%3Dsize%3Amid%7Ccolor%3Ablue%7C$localeTR3[$x]%26key%3DAIzaSyDVBikwIvQQTFzyjdEWGT-zKu-smi6I1oc\" alt=\"Deprem Bilgi Sistemi\" /></div>$flash$hour sularında merkez üssü $hashtag1$localeTR1[$x]$separator1$hashtag2$localeTR2[$x]$separator2$hashtag3$localeTR3[$x] olan $mag[$x] büyüklüğünde deprem meydana geldi.]]></description>
+					";
+				}
+				else {
+					echo "
+						<description><![CDATA[<div><img width=\"640\" height=\"320\" src=\"http://deprem.mertskaplan.com/img.php?url=https%3A%2F%2Fmaps.googleapis.com%2Fmaps%2Fapi%2Fstaticmap%3Fcenter%3D$lat[$x]%2C$lon[$x]%26zoom%3D8%26size%3D640x320%26format%3Djpg%26maptype%3Droadmap%26markers%3Dcolor%3Ared%7C$lat[$x]%2C$lon[$x]%26markers%3Dsize%3Amid%7Ccolor%3Ablue%7C$localeTR2[$x]%2C$localeTR3[$x]%26markers%3Dsize%3Amid%7Ccolor%3Ablue%7C$localeTR3[$x]%26key%3DAIzaSyDVBikwIvQQTFzyjdEWGT-zKu-smi6I1oc\" alt=\"Deprem Bilgi Sistemi\" /></div>$flash". date('j ') . $month . date(' Y ') . $day ." günü $time[$x] sularında merkez üssü $hashtag1$localeTR1[$x]$separator1$hashtag2$localeTR2[$x]$separator2$hashtag3$localeTR3[$x] olan $mag[$x] büyüklüğünde deprem meydana geldi.]]></description>
+					";
+				}
+			echo "
 						<source url=\"http://www.koeri.boun.edu.tr/scripts/sondepremler.asp\">BOĞAZİÇİ ÜNİVERSİTESİ KANDİLLİ RASATHANESİ VE DEPREM ARAŞTIRMA ENSTİTÜSÜ (KRDAE) BÖLGESEL DEPREM-TSUNAMİ İZLEME VE DEĞERLENDİRME MERKEZİ (BDTİM)</source>
 					</item>
 			";

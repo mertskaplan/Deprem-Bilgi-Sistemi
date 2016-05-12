@@ -15,7 +15,7 @@
 	
 		<script src="js/jquery.min.js"></script>
 		<script src="js/angular.min.js"></script>
-		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/bootstrap-select.min.js"></script>
 		<script src="js/i18n/defaults-en_US.min.js"></script>
 		<script src="js/script.js"></script>
@@ -54,7 +54,7 @@
 									<label class="control-label col-sm-3" for="size">Hashtag:</label>
 									<div class="material-switch col-sm-9 text-left">
 										<input id="someSwitchOptionPrimary2" name="someSwitchOption002" type="checkbox" ng-model="hashtag" ng-true-value="'1'" ng-false-value="'0'">
-										<label for="someSwitchOptionPrimary2" class="label-primary switch-button"></label> <a class="local" ng-if="(hashtag == 0)">Tek kelimelik yerleşim yerlerinin başına hashtag (#) <strong>ekleme</strong>.</a><a class="local" ng-if="(hashtag != 0)">Tek kelimelik yerleşim yerlerinin başına hashtag (#) <strong>ekle</strong>.</a>
+										<label for="someSwitchOptionPrimary2" class="label-primary switch-button"></label> <a class="local" ng-if="(hashtag == 0)">Yerleşim yerlerinin başına hashtag (#) <strong>ekleme</strong>.</a><a class="local" ng-if="(hashtag != 0)">Yerleşim yerlerinin başına hashtag (#) <strong>ekle</strong>.</a>
 									</div>
 								</div>
 								
@@ -62,7 +62,7 @@
 									<label class="control-label col-sm-3" for="size">Flash:</label>
 									<div class="material-switch col-sm-9 text-left">
 										<input id="someSwitchOptionPrimary3" name="someSwitchOption003" type="checkbox" ng-model="flash" ng-true-value="'1'" ng-false-value="'0'">
-										<label for="someSwitchOptionPrimary3" class="label-primary switch-button"></label> <a class="local" ng-if="(flash == 0)">5 ve üzeri şiddetteki depremlerde metnin başına flash (⚡) <strong>ekleme</strong>.</a><a class="local" ng-if="(flash != 0)">5 ve üzeri şiddetteki depremlerde metnin başına flash (⚡) <strong>ekle</strong>.</a>
+										<label for="someSwitchOptionPrimary3" class="label-primary switch-button"></label> <a class="local" ng-if="(flash == 0)">5 ve üzeri büyüklükteki depremlerde metnin başına flash (⚡) <strong>ekleme</strong>.</a><a class="local" ng-if="(flash != 0)">5 ve üzeri büyüklükteki depremlerde metnin başına flash (⚡) <strong>ekle</strong>.</a>
 									</div>
 								</div>
 								
@@ -92,13 +92,13 @@
 								</div>
 								
 								<div class="form-group">
-									<label class="control-label col-sm-3" for="size">Deprem Şiddeti:</label>
+									<label class="control-label col-sm-3" for="size">Deprem Büyüklüğü:</label>
 									<div class="input-group col-sm-9">
 										<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span></span>
 										<div class="range">
-											<input type="range" id="range" name="range" min="0" max="90" ng-model="size">
+											<input type="range" id="range" name="range" min="0" max="89" ng-model="size">
 										</div>
-										<span class="input-group-addon" id="basic-addon2">{{size/10}}<a ng-if="(size == 10 || size == 20 || size == 30 || size == 40 || size == 50 || size == 60 || size == 70 || size == 80 || size == 90)">.0</a><a ng-if="size > 89">+</a></span>
+										<span class="input-group-addon" id="basic-addon2">{{size/10}}<a ng-if="(size == 10 || size == 20 || size == 30 || size == 40 || size == 50 || size == 60 || size == 70 || size == 80)">.0</a></span>
 									</div>
 									<span id="helpBlock" class="help-block text-center col-sm-9 col-sm-offset-3">Yerel magnitüd ölçeğine göre (Richter ölçeği)</span>
 									<div class="range-description-header col-sm-9 col-sm-offset-3">

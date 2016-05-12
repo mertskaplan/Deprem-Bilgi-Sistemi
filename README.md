@@ -6,8 +6,8 @@ Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini ve
 ### Özelleştirme Seçenekleri
 * **Yerleşim yeri dışındaki depremleri göstermeme seçeneği:** Özellikle denizlerde meydana gelen depremlerin liste dışına alınması ile insanları daha çok etkileyebilecek depremlerin öne çıkması hedeflenmiştir.
 * **Hashtag ekleme seçeneği:** Yerleşim yerlerinin başına hashtag (#) ekleme seçeneği ile hashtag kullanılan platformlarda kullanım kolaylığı yaratmak amaçlanmıştır. Hashtaglerin bölünmemesi için bu özellik sadece tek kelimeden oluşan yer adları için eklenmiştir. 
-* **Flash ekleme seçeneği:** Magnitüd ölçeğine göre (Richter ölçeği) 5 ve üzeri şiddetteki depremler için metinlerin başına flash karakteri (⚡) eklenerek daha önemli depremlerin görünürlülüğünün arttırılması yoluna gidilmiştir.
-* **Deprem şiddeti seçeneği:** Belirli büyüklükten küçük depremler gösterilmeyerek daha iyi bir hedefleme yapılması sağlanmıştır.
+* **Flash ekleme seçeneği:** Magnitüd[[1]](#Dipnot) ölçeğine göre (Richter ölçeği) 5 ve üzeri büyüklükteki depremler için metinlerin başına flash karakteri (⚡) eklenerek daha önemli depremlerin görünürlülüğünün artırılması yoluna gidilmiştir.
+* **Deprem büyüklüğü seçeneği:** Belirli büyüklükten küçük depremler gösterilmeyerek daha iyi bir hedefleme yapılması sağlanmıştır.
 * **Harita seçeneği:** Depremlerin konum bilgilerinin işaretlenmesi için farklı online harita sistemleri için bağlantılar eklenerek çeşitlilik sağlanmıştır. Bu harita sistemleri şöyledir:
     * OpenStreetMap (*varsayılan*)
     * Google Maps
@@ -24,12 +24,25 @@ Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini ve
 
 **Not 1:** İlk GET değeri için kullanılan "**?**" karakterine gerek kalmaması için **[.htaccess](https://github.com/mertskaplan/Deprem-Bilgi-Sistemi/blob/master/.htaccess)** ile "**&**" karakteri de kullanılabilir hale getirilmiştir.
 
-**Not 2:** Deprem şiddeti süzgecini belirleyen "**mag**" değeri, normalde "**,**" ile ayrılmasına rağmen adres satırı için "**.**" ile de kullanılabilir hale getirilmiştir. Örnek:  `mag=3,8` = `mag=3.8`
+**Not 2:** Deprem büyüklüğü süzgecini belirleyen "**mag**" değeri, normalde "**,**" ile ayrılmasına rağmen[[2]](#Dipnot) adres satırı için "**.**" ile de kullanılabilir hale getirilmiştir. Örnek:  `mag=3,8` = `mag=3.8`
 
 ### Altyapı
 Sistem için temelde **PHP** olmak üzere, **HTML5**, **CSS3**, **JS** ve **XML** dilleri ile **Bootstrap** ve **AngularJS** kütüphanelerinden yararlanılmıştır.
 
 ### Değişiklikler
+##### v2.1
+* Deprem merkezlerine ait otamatik olarak üretilen harita görseli eklendi.
+* "Yerleşim yeri dışı" kısmına komşu ülkeler ve yeni yerler eklendi.
+* Veri kaynağından kaynaklanan ve düzensizliğe neden olan köşeli parantez karakterleri yer adlarından kaldırıldı.
+* Türkçe dosya adları proje diline uygun olarak İngilizce'ye çevrildi.
+* Twitter için özel, 140 karaktere uygun içerik mesajı seçeneği hazırlandı.
+* SSL desteği eklendi.
+* Yeni yer adları süzgece eklendi.
+* Arka plan deseni dosyalar içine alındı.
+* JS kaynağı optimize edildi.
+* Hatalı kullanılan "depremin şiddeti" tamlaması "depremin büyüklüğü" olarak değiştirildi.
+* En büyük deprem büyüklüğü 8.9 olarak düzeltildi.
+* Logo dosyalar arasına eklendi.
 ##### v2.0
 * 5 ve üzeri depremlerde metin alanının başında flash ikonunun çıkması seçeneği eklendi.
 * UTF-8 desteklemeyen ve büyük harflerle yazılmış olan yer adları, oluşturulan sistem ile büyük oranda Türkçeleştirilerek ilk harfleri büyük, devamı küçük harfle olacak hale getirildi.
@@ -47,3 +60,9 @@ Sistemin oluşturulması için harcanan zaman ve kullanılan bilgiyi desteklemek
 
 ### İletişim
 Web: [mertskaplan.com](http://mertskaplan.com) | Mail: mail@mertskaplan.com | Twitter: [@mertskaplan](https://twitter.com/mertskaplan)
+
+
+#### Dipnot
+
+1. [^](#Özelleştirme-seçenekleri) Richter ölçeğinde, sismografla kaydedilmiş zemin hareketinin mikron cinsinden ölçülen maksimum genliğinin 10 tabanına göre logaritması depremin büyüklüğü olarak tanımlanır ve 0'dan 8,9'a kadar olan rakamlarla belirtilir. Rakamlar büyüdükçe depremin büyüklüğü de logaritmik olarak artar.
+2. [^](#Özelleştirme-methodu) Buğdaycı, İlhami (1999, Eylül) TÜBİTAK Bilim ve Teknik Dergisi, Sismoloji, Depremin Büyüklüğü ve Şiddeti. *Erişim Tarihi: 10 Ocak 2016* [*http://www.biltek.tubitak.gov.tr/sandik/deprem/sismoloji2.html*](http://www.biltek.tubitak.gov.tr/sandik/deprem/sismoloji2.html)

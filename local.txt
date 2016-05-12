@@ -1,27 +1,227 @@
+// Özel Tanımlar
 Ege Denizi
-MARMARA DENİZİ
-İZMİR KÖRFEZİ
-ÖLÜDENİZ AÇIKLARI
-ARMUTLU AÇIKLARI
-GİRİT ADASI
-SEFERİHİSAR AÇIKLARI
-ADIGÜZEL
-AŞAĞIYANIKTAŞ
-KAŞ AÇIKLARI
-YENİKÖY AÇIKLARI
-AHLATLIÇEŞME
-VAN GÖLÜ
-ŞENKÖY
-GÜZELKÖY AÇIKLARI
-YAKINCAK
-MOLLAKASIM
-GÜLLÜK KÖRFEZİ
+Marmara Denizi
+İzmir Körfezi
+Ölüdeniz Açıkları
+Armutlu Açıkları
+Girit Adası
+Seferihisar Açıkları
+Adıgüzel
+Aşağıyanıktaş
+Kaş Açıkları
+Yeniköy Açıkları
+Ahlatlıçeşme
+Van Gölü
+Şenköy
+Güzelköy Açıkları
+Yakıncak
+Mollakasım
+Güllük Körfezi
 Gökova Körfezi
-İRAN
+Girit Adası Açıkları
+Yamanyurt
+Örenburç
+Oniki Adalar
+Silivri Açıkları
+Doğubeyazıt
+Duğubayazıt
+İran
 Kızılen
+Güreşçi
+Sakız Adası
+Midilli Adası
+Doğu Akdeniz
+Lefkoşa
+Karaelbistan
+Yalova Açıkları
+Çınarcık Açıkları
+Gemlik Körfezi
+Saros Körfezi
+Mürefte Açıkları
+Kemalyeri Açıkları
+Yenihisar Açıkları
+Suriye
+Yeşilköy Açıkları
+Marmara Ereğlisi Açıkları
+Medar
+Kıbrıs Açıkları
+Sisam Adası
+Irak
+Uzgörür
+Demre
+Darıören
+Ayranlı
+Kapıkaya
+İnlice
+Aşağıdolaylar
+Yukarıdolaylar
+Pelitözü
+Antalya Körfezi
+Dalaman Açıkları
+Palas
+Giresun Açıkları
+Gülpınar Açıkları
+Çakırkaş
+Yeşilyalı
+Küçükbahçe Açıkları
+Kızoğlu
+Kale Açıkları
+Doğubayazit
+Kıbrıs Rum Kesimi
+Gürcistan
+Tavaklı Açıkları
+Türkiye
+İran Sınır Bölgesi
+Biga Açıkları
+Naşa
+Kuşadası Körfezi
+Büyüktuzhisar
+Rodos Adası
+Yaylaçayırı
+İnsuyu
+Erdek Körfezi
+Önsen
+Sakçagöze
+Köşk Köyü
+Çandarlı Körfezi
+Midilli Island
+Doğantarla
+Bafra Açıkları
+Sahilkılınçlı
+Kayalıoğlu
+Kabaağaçkıran
+Yalıköy Açıkları
+Cayırhan
+Çerkes
+Sancaklıiğdecik
+Çalören
+Bükardı
+Kos Adası
+Fethiye Körfezi
+Bozburun Açıkları
+Salman Açıkları
+Kalkan Açıkları
+Edremit Körfezi
+Erkenek
+Odun İskele Açıkları
+Kocaözü
+Bulgaristan Açıkları
+Bulgaristan
+Zeytindağ
+Azerbaycan
+Başkarcı
+Bandırma Açıkları
+Mordoğan
+Gazipaşa Açıkları
+Sahinkayası
+Akselendi
+Ezinepazar
+Yeniyapanşeyhli
+Sarıkemer
+İçeriçumra
+Kurutilek
+Görümlü
+Destek
+Doğanbey Açıkları
+Gürpınar Açıkları
+Kocaöz
+Kumkuyucak
+Iskenderun Körfezi
+Silifke Açıkları
+Karlısu
+Karakılınçlı
+Eskiyörük
+Tunçbilek
+Konubekler
+Tartışık
+Gökova
+Bademli Açıkları
+Akköy Açıkları
+Akdeniz
+Çatalzeytin Açıkları
+Hıdırdivan
+Dokurcun
+Sızma
+Yunanistan
+Akçabelen
+Dağbeli
+Madenköprübaşı
+Yukarıkaleoba
+Darıyerihasanbey
+Temel
+Ekinli
+Dağsolaklısı
+Şenoba
+Yaylalar
+Akpazar
+Sülün
+Göltürkbükü
+Kurtkulağı
+Irak Sınır Bölgesi
+Kurucan
+Göynem
+Yeşilbaşköy
+Datça Açıkları
+Makedonya
+Gazimagusa
+Akyeniköy
+Sungu
+Irlıganlı
+Kızkalesi
+Kılılı
+Yörükkeçidere
+Hamdilli
+Birkent
+Karabiga
+Üstünler
+Eber
+Arslanpınarı
+Başdere
+Bafa
+Büyükbolatlı
+Temurşeyh
+Büngüldek
+Yeğenderesi
+Büyüksöyle
+Sevinçköy
+Devecipınar
+Yukarıburadere
+Sinanoğlu
+Limandere
+Kolukısa
+Misinli
+Sadrazamnköy
+Karamıkkaracaören
+Büyükkarabağ
+Suriye Sınır Bölgesi
+Toklumen
+Pazarağaç
+Çayırkent
+Üvecik Açıkları
+Geben
+Aktarlı
+Egerce
+// Yabancı Adlar
+Greece
+Bulgaria
+Aegean Sea
+Dodecanese islands
+Crete
+Turkey
+Jordan/Syria Region
+Syria
+Mediterranean Sea
+Eastern Mediterranean Sea
+Southern Greece
+Georgia Armenia Turkey Border Reg.
+Cyprus Region
+Northwestern Caucasus
+Black Sea
+// İller
 Adana
 Adıyaman
 Afyon
+Afyonkarahisar
 Ağrı
 Amasya
 Ankara
@@ -755,7 +955,6 @@ Nusaybin
 Ömerli
 Savur
 Yeşilli
-Akdeniz
 Anamur
 Aydıncık
 Bozyazı
@@ -953,6 +1152,7 @@ Yomra
 Hozat
 Mazgirt
 Nazimiye
+Nazımiye
 Pertek
 Pülümür
 Banaz
@@ -1803,7 +2003,7 @@ BAGLARALTI
 BAGLARBASI
 BAGLARBAŞI
 BAGLIK
-BAGYAKA
+BAĞYAKA
 BAHABEY
 BAHADIRLI
 BAHAR
@@ -3126,7 +3326,6 @@ FARTIL
 FATIH
 FATİF
 FATİH 
-FATİH  SULTAN  MEHMET
 FATİH MEHMET
 FATİH SULTAN
 FATİH SULTAN MEHMET
@@ -7003,11 +7202,7 @@ YEMİŞEN
 YEMİŞKUMU
 YEMİŞLİ
 YEMİŞLİK
-YENI
-YENIDOGAN
-YENIKENT
-YENIMAH
-YENISEHIR
+YENİŞEHİR
 YENİ 
 YENİ ALTINTAŞ
 YENİ CAMİ
@@ -7091,11 +7286,10 @@ YENİŞEHİR
 YERALTIŞEHRİ
 YERLİ SU
 YERLİKENT
-YESIL
-YESILKAYA
-YESILOVA
-YESILYAYLA
-YESILYURTS'
+YEŞİL
+YEŞİLKAYA
+YEŞİLOVA
+YEŞİLYURT
 YETMİŞBEŞİNCİYIL
 YETİMOĞLU
 YEĞEN AĞA
@@ -7276,7 +7470,7 @@ YUVACA
 YUVACIK
 YUVAKÖY
 YUVALI
-YYAHYALAR
+YAHYALAR
 YZAFERİYE
 Yalım Erez
 Yalınlıgediği
@@ -7303,7 +7497,7 @@ Yolağzı
 Yolçatı
 Yukarı Kaleköy
 Yukarı Taşpınar
-Yukarı içme
+Yukarı İçme
 Yukarışeyhler
 YÖRÜCEKLER
 YÖRÜK
@@ -7348,7 +7542,7 @@ ZAFERDUMLUPINAR
 ZAFERTEPE
 ZAFERİYE
 ZAHİT
-ZAVİYE M
+ZAVİYE
 ZEKAİ GÜMÜŞDİŞ
 ZEKİ AYAN
 ZEKİAYAN
@@ -7405,7 +7599,7 @@ cömert
 dedeşen
 değirmen dere
 emniyat
-gümüşyaka/ merkez
+gümüşyaka
 hevsel
 inkılap
 inönü
@@ -7653,7 +7847,6 @@ saraybeleni
 ÇUKUR ALTI
 ÇUKURAHMEDİYE
 ÇUKURAMBAR
-ÇUKURBAG
 ÇUKURBAĞ
 ÇUKURBUCAK
 ÇUKURCA
@@ -7870,7 +8063,7 @@ saraybeleni
 İBRAHİMCE
 İBRAHİMFAKI
 İBRAHİMPAŞA
-İBRAHİMPAŞA M
+İBRAHİMPAŞA
 İBRAHİMÇELEBİ
 İCADİYE
 İDEALTEPE
@@ -25308,7 +25501,6 @@ YENİKAYA
 YENİDOĞANCILAR
 YENİKAYALI
 YENİDOĞANLAR
-YENİKENT
 YENİDOĞANLI
 YENİDOĞDU
 YENİDUMANLAR
@@ -25490,7 +25682,7 @@ YEŞİLSIRT
 YEŞİLSU
 YEŞİLTAŞ
 YEŞİLTEKKE
-YESILOVA
+YEŞİLOVA
 YESİLTEPE
 YEŞİLYAZI
 YEŞİLYOL
