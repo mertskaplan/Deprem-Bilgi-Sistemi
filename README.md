@@ -2,6 +2,7 @@
 Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini veren özelleştirilebilir **RSS** yayını.
 
 > **Adres:** http://deprem.mertskaplan.com/
+
 > **Twitter:** https://twitter.com/DepremBilgiSis
 
 ### Özelleştirme Seçenekleri
