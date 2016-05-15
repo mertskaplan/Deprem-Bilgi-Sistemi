@@ -132,32 +132,14 @@
 			$fileopUp = array_map('strtoupperEN', $fileop);
 			$hour = substr($time[$x], 0, 5);
 
-			for ($y = 0; isset($fileop[$y]); $y++) {
-				if ($localeEx[0] == $fileopUp[$y]) {
-					$localeTR1[$x] = ucwords_tr(strtolowerTR($fileop[$y]));
-					break;
-				}
-			}
-			
-			for ($y = 0; isset($fileop[$y]); $y++) {
-				if ($localeEx[1] == $fileopUp[$y]) {
-					$localeTR2[$x] = ucwords_tr(strtolowerTR($fileop[$y]));
-					break;
-				}
-			}
-
-			for ($y = 0; isset($fileop[$y]); $y++) {
-				if ($localeEx[2] == $fileopUp[$y]) {
-					$localeTR3[$x] = ucwords_tr(strtolowerTR($fileop[$y]));
-					break;
-				}
-			}
+			$localeTR1[$x] = editLocal($localeEx[0], $fileop, $fileopUp);
+			$localeTR2[$x] = editLocal($localeEx[1], $fileop, $fileopUp);
+			$localeTR3[$x] = editLocal($localeEx[2], $fileop, $fileopUp);	
 			
 			if (!isset($localeTR1[$x])) {
 				$localeTR1[$x] = ucwords(strtolower($localeEx[0]));
 				
-				if (in_array($localeEx[0],$fileInconsistent)) {}
-				else {
+				if (!in_array($localeEx[0],$fileInconsistent)) {
 					$open = fopen("inconsistent.txt","a");
 					$write = "$localeEx[0]\n";
 					fwrite($open, $write);
@@ -168,8 +150,7 @@
 			if (!isset($localeTR2[$x])) {
 				$localeTR2[$x] = ucwords(strtolower($localeEx[1]));
 				
-				if (in_array($localeEx[1],$fileInconsistent)) {}
-				else {
+				if (!in_array($localeEx[1],$fileInconsistent)) {
 					$open = fopen("inconsistent.txt","a");
 					$write = "$localeEx[1]\n";
 					fwrite($open, $write);
@@ -180,8 +161,7 @@
 			if (!isset($localeTR3[$x])) {
 				$localeTR3[$x] = ucwords(strtolower($localeEx[2]));
 				
-				if (in_array($localeEx[2],$fileInconsistent)) {}
-				else {
+				if (!in_array($localeEx[2],$fileInconsistent)) {
 					$open = fopen("inconsistent.txt","a");
 					$write = "$localeEx[2]\n";
 					fwrite($open, $write);
@@ -239,5 +219,3 @@
 			</channel>
 		</rss>
 	";
-	
-?>
