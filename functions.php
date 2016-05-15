@@ -74,4 +74,3 @@
 		else						{$hashtag = "";}
 		return $hashtag;
 	}
-?>
