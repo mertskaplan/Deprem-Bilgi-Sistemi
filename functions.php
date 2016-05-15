@@ -74,3 +74,13 @@
 		else						{$hashtag = "";}
 		return $hashtag;
 	}
+	
+	function editLocal($localeEx, $fileop, $fileopUp){
+		for ($y = 0; isset($fileop[$y]); $y++) {
+			if ($localeEx == $fileopUp[$y]) {
+				$localeTR = ucwords_tr(strtolowerTR($fileop[$y]));
+				break;
+			}
+		}
+		return $localeTR;
+	}
