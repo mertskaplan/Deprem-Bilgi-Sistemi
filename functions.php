@@ -82,5 +82,7 @@
 				break;
 			}
 		}
-		return $localeTR;
+		if (!isset($localeTR)) {
+			return $localeTR;
+		}
 	}
