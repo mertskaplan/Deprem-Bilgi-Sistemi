@@ -35,7 +35,9 @@ Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini ve
 Sistem için temelde **PHP** olmak üzere, **HTML5**, **CSS3**, **JS** ve **XML** dilleri ile **Bootstrap** ve **AngularJS** kütüphanelerinden yararlanılmıştır.
 
 ### Değişiklikler
-##### v3.0
+##### v3.1 - 16.05.2016
+* Kodlamalarda düzenlemeler yapıldı.
+##### v3.0 - 12.05.2016
 * Deprem merkezlerine ait otamatik olarak üretilen harita görseli eklendi.
 * "Yerleşim yeri dışı" kısmına komşu ülkeler ve yeni yerler eklendi.
 * Veri kaynağından kaynaklanan ve düzensizliğe neden olan köşeli parantez karakterleri yer adlarından kaldırıldı.
@@ -49,7 +51,7 @@ Sistem için temelde **PHP** olmak üzere, **HTML5**, **CSS3**, **JS** ve **XML*
 * En büyük deprem büyüklüğü 8.9 olarak düzeltildi.
 * Logo dosyalar arasına eklendi.
 
-##### v2.0
+##### v2.0 - 20.12.2015
 * 5 ve üzeri depremlerde metin alanının başında flash ikonunun çıkması seçeneği eklendi.
 * UTF-8 desteklemeyen ve büyük harflerle yazılmış olan yer adları, oluşturulan sistem ile büyük oranda Türkçeleştirilerek ilk harfleri büyük, devamı küçük harfle olacak hale getirildi.
 * Türkçeleştirme algoritmasından kaçan yer adları için otomatik depolama listesi oluşturularak manuel düzenleme imkanı yaratıldı.
