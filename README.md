@@ -1,3 +1,6 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mertskaplan/Deprem-Bilgi-Sistemi/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mertskaplan/Deprem-Bilgi-Sistemi/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/mertskaplan/Deprem-Bilgi-Sistemi/badges/build.png?b=master)](https://scrutinizer-ci.com/g/mertskaplan/Deprem-Bilgi-Sistemi/build-status/master) [![Code Climate](https://codeclimate.com/github/mertskaplan/Deprem-Bilgi-Sistemi/badges/gpa.svg)](https://codeclimate.com/github/mertskaplan/Deprem-Bilgi-Sistemi)
+
+
 # Deprem Bilgi Sistemi - v3.0
 Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini veren özelleştirilebilir **RSS** yayını.
 
@@ -69,3 +72,4 @@ Web: [mertskaplan.com](http://mertskaplan.com) | Mail: mail@mertskaplan.com | Tw
 
 1. [^](#Özelleştirme-seçenekleri) Richter ölçeğinde, sismografla kaydedilmiş zemin hareketinin mikron cinsinden ölçülen maksimum genliğinin 10 tabanına göre logaritması depremin büyüklüğü olarak tanımlanır ve 0'dan 8,9'a kadar olan rakamlarla belirtilir. Rakamlar büyüdükçe depremin büyüklüğü de logaritmik olarak artar.
 2. [^](#Özelleştirme-methodu) Buğdaycı, İlhami (1999, Eylül) TÜBİTAK Bilim ve Teknik Dergisi, Sismoloji, Depremin Büyüklüğü ve Şiddeti. *Erişim Tarihi: 10 Ocak 2016* [*http://www.biltek.tubitak.gov.tr/sandik/deprem/sismoloji2.html*](http://www.biltek.tubitak.gov.tr/sandik/deprem/sismoloji2.html)
+
