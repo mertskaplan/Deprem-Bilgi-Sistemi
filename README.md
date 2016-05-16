@@ -37,6 +37,7 @@ Sistem için temelde **PHP** olmak üzere, **HTML5**, **CSS3**, **JS** ve **XML*
 ### Değişiklikler
 ##### v3.1 - 16.05.2016
 * Kodlamalarda düzenlemeler yapıldı.
+
 ##### v3.0 - 12.05.2016
 * Deprem merkezlerine ait otamatik olarak üretilen harita görseli eklendi.
 * "Yerleşim yeri dışı" kısmına komşu ülkeler ve yeni yerler eklendi.
