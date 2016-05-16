@@ -1,8 +1,7 @@
 <?php
 
 	function find($first, $latest, $text) {
-		@preg_match_all("/" . preg_quote($first, "/") .
-		"(.*?)". preg_quote($latest, "/")."/i", $text, $m);
+		preg_match_all("/" . preg_quote($first, "/") .	"(.*?)". preg_quote($latest, "/")."/i", $text, $m);
 		return @$m[1];
 	}
 	
@@ -82,7 +81,6 @@
 				break;
 			}
 		}
-		if (!isset($localeTR)) {
-			return $localeTR;
-		}
+		if (isset($localeTR)) {return $localeTR;}
+		else {$localeTR = null; return $localeTR; }
 	}
