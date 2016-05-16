@@ -136,7 +136,7 @@
 			$localeTR2[$x] = editLocal($localeEx[1], $fileop, $fileopUp);
 			$localeTR3[$x] = editLocal($localeEx[2], $fileop, $fileopUp);
 		
-			if ($localeTR1[$x] == null) {
+			if (is_null($localeTR1[$x])) {
 				$localeTR1[$x] = ucwords(strtolower($localeEx[0]));
 				
 				if (!in_array($localeEx[0],$fileInconsistent) && !empty($localeEx[1])) {
@@ -147,7 +147,7 @@
 				}
 			}
 			
-			if ($localeTR2[$x] == null) {
+			if (is_null($localeTR2[$x])) {
 				$localeTR2[$x] = ucwords(strtolower($localeEx[1]));
 				
 				if (!in_array($localeEx[1],$fileInconsistent) && !empty($localeEx[2])) {
@@ -158,7 +158,7 @@
 				}
 			}
 			
-			if ($localeTR3[$x] == null) {
+			if (is_null($localeTR3[$x])) {
 				$localeTR3[$x] = ucwords(strtolower($localeEx[2]));
 				
 				if (!in_array($localeEx[0],$fileInconsistent) && !empty($localeEx[3])) {
