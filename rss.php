@@ -134,12 +134,12 @@
 
 			$localeTR1[$x] = editLocal($localeEx[0], $fileop, $fileopUp);
 			$localeTR2[$x] = editLocal($localeEx[1], $fileop, $fileopUp);
-			$localeTR3[$x] = editLocal($localeEx[2], $fileop, $fileopUp);	
-			
-			if (!isset($localeTR1[$x])) {
+			$localeTR3[$x] = editLocal($localeEx[2], $fileop, $fileopUp);
+		
+			if ($localeTR1[$x] == null) {
 				$localeTR1[$x] = ucwords(strtolower($localeEx[0]));
 				
-				if (!in_array($localeEx[0],$fileInconsistent)) {
+				if (!in_array($localeEx[0],$fileInconsistent) && !empty($localeEx[1])) {
 					$open = fopen("inconsistent.txt","a");
 					$write = "$localeEx[0]\n";
 					fwrite($open, $write);
@@ -147,10 +147,10 @@
 				}
 			}
 			
-			if (!isset($localeTR2[$x])) {
+			if ($localeTR2[$x] == null) {
 				$localeTR2[$x] = ucwords(strtolower($localeEx[1]));
 				
-				if (!in_array($localeEx[1],$fileInconsistent)) {
+				if (!in_array($localeEx[1],$fileInconsistent) && !empty($localeEx[2])) {
 					$open = fopen("inconsistent.txt","a");
 					$write = "$localeEx[1]\n";
 					fwrite($open, $write);
@@ -158,10 +158,10 @@
 				}
 			}
 			
-			if (!isset($localeTR3[$x])) {
+			if ($localeTR3[$x] == null) {
 				$localeTR3[$x] = ucwords(strtolower($localeEx[2]));
 				
-				if (!in_array($localeEx[2],$fileInconsistent)) {
+				if (!in_array($localeEx[0],$fileInconsistent) && !empty($localeEx[3])) {
 					$open = fopen("inconsistent.txt","a");
 					$write = "$localeEx[2]\n";
 					fwrite($open, $write);
