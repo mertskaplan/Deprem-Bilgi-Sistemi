@@ -1,7 +1,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mertskaplan/Deprem-Bilgi-Sistemi/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mertskaplan/Deprem-Bilgi-Sistemi/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/mertskaplan/Deprem-Bilgi-Sistemi/badges/build.png?b=master)](https://scrutinizer-ci.com/g/mertskaplan/Deprem-Bilgi-Sistemi/build-status/master) [![Code Climate](https://codeclimate.com/github/mertskaplan/Deprem-Bilgi-Sistemi/badges/gpa.svg)](https://codeclimate.com/github/mertskaplan/Deprem-Bilgi-Sistemi)
 
 
-# Deprem Bilgi Sistemi - v3.0
+# Deprem Bilgi Sistemi - v3.1
 Haberciler ve geliştiriciler için Türkiye'deki son depremlerin bilgilerini veren özelleştirilebilir **RSS** yayını.
 
 > **Adres:** http://deprem.mertskaplan.com/
