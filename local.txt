@@ -6,33 +6,18 @@ Marmara Denizi
 Armutlu Açıkları
 Girit Adası
 Seferihisar Açıkları
-Adıgüzel
-Aşağıyanıktaş
 Kaş Açıkları
 Yeniköy Açıkları
-Ahlatlıçeşme
 Van Gölü
-Şenköy
 Güzelköy Açıkları
-Yakıncak
-Mollakasım
 Güllük Körfezi
 Gökova Körfezi
 Girit Adası Açıkları
-Yamanyurt
-Örenburç
 Oniki Adalar
 Silivri Açıkları
-Doğubeyazıt
-Duğubayazıt
-İran
-Kızılen
-Güreşçi
 Sakız Adası
 Midilli Adası
 Doğu Akdeniz
-Lefkoşa
-Karaelbistan
 Yalova Açıkları
 Çınarcık Açıkları
 Gemlik Körfezi
@@ -40,173 +25,58 @@ Saros Körfezi
 Mürefte Açıkları
 Kemalyeri Açıkları
 Yenihisar Açıkları
-Suriye
-Yeşilköy Açıkları
-Marmara Ereğlisi Açıkları
-Medar
-Kıbrıs Açıkları
-Sisam Adası
-Irak
-Uzgörür
-Demre
-Darıören
-Ayranlı
-Kapıkaya
-İnlice
 Aşağıdolaylar
 Yukarıdolaylar
-Pelitözü
 Antalya Körfezi
 Dalaman Açıkları
-Palas
 Giresun Açıkları
 Gülpınar Açıkları
-Çakırkaş
-Yeşilyalı
 Küçükbahçe Açıkları
-Kızoğlu
 Kale Açıkları
-Doğubayazit
-Kıbrıs Rum Kesimi
+Kıbrıs Açıkları
+Sisam Adası
+Marmara Ereğlisi Açıkları
 Gürcistan
 Tavaklı Açıkları
-Türkiye
 İran Sınır Bölgesi
-Biga Açıkları
-Naşa
-Kuşadası Körfezi
-Büyüktuzhisar
-Rodos Adası
-Yaylaçayırı
-İnsuyu
-Erdek Körfezi
-Önsen
-Sakçagöze
-Köşk Köyü
 Çandarlı Körfezi
-Midilli Island
-Doğantarla
+Biga Açıkları
+Türkiye
+Kuşadası Körfezi
+Erdek Körfezi
+Yeşilköy Açıkları
+Rodos Adası
 Bafra Açıkları
-Sahilkılınçlı
-Kayalıoğlu
-Kabaağaçkıran
+Bandırma Açıkları
+Gazipaşa Açıkları
+Doğanbey Açıkları
+Gürpınar Açıkları
+Iskenderun Körfezi
+Silifke Açıkları
+Üvecik Açıkları
 Yalıköy Açıkları
-Cayırhan
-Çerkes
-Sancaklıiğdecik
-Çalören
-Bükardı
+Irak Sınır Bölgesi
+Datça Açıkları
+Bademli Açıkları
+Akköy Açıkları
+Çatalzeytin Açıkları
 Kos Adası
 Fethiye Körfezi
 Bozburun Açıkları
 Salman Açıkları
 Kalkan Açıkları
 Edremit Körfezi
-Erkenek
 Odun İskele Açıkları
-Kocaözü
 Bulgaristan Açıkları
+// Bazı Ülkeler ve Yabancı Şehirler
+Kıbrıs Rum Kesimi
 Bulgaristan
-Zeytindağ
+İran
+Lefkoşa
+Suriye
 Azerbaycan
-Başkarcı
-Bandırma Açıkları
-Mordoğan
-Gazipaşa Açıkları
-Sahinkayası
-Akselendi
-Ezinepazar
-Yeniyapanşeyhli
-Sarıkemer
-İçeriçumra
-Kurutilek
-Görümlü
-Destek
-Doğanbey Açıkları
-Gürpınar Açıkları
-Kocaöz
-Kumkuyucak
-Iskenderun Körfezi
-Silifke Açıkları
-Karlısu
-Karakılınçlı
-Eskiyörük
-Tunçbilek
-Konubekler
-Tartışık
-Gökova
-Bademli Açıkları
-Akköy Açıkları
-Akdeniz
-Çatalzeytin Açıkları
-Hıdırdivan
-Dokurcun
-Sızma
-Yunanistan
-Akçabelen
-Dağbeli
-Madenköprübaşı
-Yukarıkaleoba
-Darıyerihasanbey
-Temel
-Ekinli
-Dağsolaklısı
-Şenoba
-Yaylalar
-Akpazar
-Sülün
-Göltürkbükü
-Kurtkulağı
-Irak Sınır Bölgesi
-Kurucan
-Göynem
-Yeşilbaşköy
-Datça Açıkları
-Makedonya
-Gazimagusa
-Akyeniköy
-Sungu
-Irlıganlı
-Kızkalesi
-Kılılı
-Yörükkeçidere
-Hamdilli
-Birkent
-Karabiga
-Üstünler
-Eber
-Arslanpınarı
-Başdere
-Bafa
-Büyükbolatlı
-Temurşeyh
-Büngüldek
-Yeğenderesi
-Büyüksöyle
-Sevinçköy
-Devecipınar
-Yukarıburadere
-Sinanoğlu
-Limandere
-Kolukısa
-Misinli
-Sadrazamnköy
-Karamıkkaracaören
-Büyükkarabağ
-Suriye Sınır Bölgesi
-Toklumen
-Pazarağaç
-Çayırkent
-Üvecik Açıkları
-Geben
-Aktarlı
-Eğerce
-Avhatyaka
-Davulga
-Ovakent
-Mirzaağa
-Aşağıyapıcı
 // Yabancı Adlar
+Midilli Island
 Greece
 Bulgaria
 Aegean Sea
@@ -304,7 +174,7 @@ Yalova
 Karabük
 Kilis
 Osmaniye
-// Böy, belde, mahalle, semt vb.
+// Köy, Belde, Mahalle, Semt vb.
 100 Yıl
 105 Evler
 200 Evler
@@ -796,6 +666,7 @@ Akçaavlu
 Akçababa
 Akçabağlar
 Akçabel
+Akçabelen
 Akçabey
 Akçabeyli
 Akçabudak
@@ -1007,6 +878,7 @@ Akörençarsak
 Akörenkışla
 Akörensöküler
 Akörü
+Akpazar
 Akpelit
 Akpınar
 Akpınar4dumlupınar
@@ -1025,6 +897,7 @@ Aksaraylı
 Aksaz
 Akse
 Akseki
+Akselendi
 Aksığın
 Aksicim
 Aksinir
@@ -1046,6 +919,7 @@ Akşinik
 Aktam
 Aktarhüssam
 Aktarla
+Aktarlı
 Aktarma
 Aktaş
 Aktaşkurtlar
@@ -1075,6 +949,7 @@ Akyayla
 Akyazı
 Akyele
 Akyemiş
+Akyeniköy
 Akyer
 Akyıldız
 Akyokuş
@@ -1840,6 +1715,7 @@ Arslankuyusu
 Arslanlar
 Arslanlı
 Arslanoğlu
+Arslanpınarı
 Arslanşah
 Arslantaş
 Arslantaşı
@@ -2373,6 +2249,7 @@ Aşağıyakınyol
 Aşağıyalankoz
 Aşağıyanıktaş
 Aşağıyanlar
+Aşağıyapıcı
 Aşağıyarımca
 Aşağıyavaş
 Aşağıyavucuk
@@ -2523,6 +2400,7 @@ Avdullu
 Avefi Pandır
 Avgancık
 Avgölü
+Avhatyaka
 Avhatyakası
 Avlacık
 Avlağa
@@ -2784,6 +2662,7 @@ Badıllı
 Badınca
 Badırlı
 Badilli
+Bafa
 Bafra
 Bafracalı
 Baglar
@@ -3215,6 +3094,7 @@ Başçeşme
 Başçiftlik
 Başçimağıl
 Başdeğirmen
+Başdere
 Başdervişli
 Başdibek
 Başdirek
@@ -3240,6 +3120,7 @@ Başkale
 Başkalecik
 Başkaragöz
 Başkaraören
+Başkarcı
 Başkavak
 Başkaya
 Başkaynak
@@ -3892,6 +3773,7 @@ Birgi
 Birinci Kadriye
 Birinci Murat
 Birinciafşar
+Birkent
 Birlik
 Birlikköy
 Biroğul
@@ -4362,6 +4244,7 @@ Büğüroğlu
 Büğüş
 Büğüz
 Bük
+Bükardı
 Bükceğiz
 Bükcük
 Bükçe
@@ -4384,6 +4267,7 @@ Bülbül
 Bülbüller
 Bülbüllü
 Bülüçalan
+Büngüldek
 Bünüş
 Bünyan
 Bünyani Osmaniye
@@ -4444,6 +4328,7 @@ Büyükbey
 Büyükbeybağı
 Büyükbıyık
 Büyükboğaziye
+Büyükbolatlı
 Büyükbostancı
 Büyükburç
 Büyükburhaniye
@@ -4530,6 +4415,7 @@ Büyükkadı
 Büyükkale
 Büyükkapılı
 Büyükkaraağaç
+Büyükkarabağ
 Büyükkarakarlı
 Büyükkarakuyu
 Büyükkaramanlı
@@ -4623,6 +4509,7 @@ Büyüktopaç
 Büyüktoraman
 Büyüktuğluk
 Büyüktuy
+Büyüktuzhisar
 Büyüktürbe
 Büyüktüysüz
 Büyükyağcı
@@ -4745,6 +4632,7 @@ Carcı
 Carcıoğlu
 Cavlak
 Cayır
+Cayırhan
 Cayra
 Cazgirler
 Cazkırlar
@@ -5099,6 +4987,7 @@ Cürlü
 Çakırhacıibrahim
 Çakırhacılı
 Çakırkadı
+Çakırkaş
 Çakırkaya
 Çakırkoç
 Çakırköy
@@ -5202,6 +5091,7 @@ Cürlü
 Çalman
 Çalmaya
 Çalova
+Çalören
 Çalpala
 Çalpınar
 Çalseki
@@ -5572,6 +5462,7 @@ Cürlü
 Çayırgülü
 Çayırhisar
 Çayıriçi
+Çayırkent
 Çayırköprü
 Çayırköy
 Çayırlar
@@ -5725,6 +5616,7 @@ Cürlü
 Çerdiğin
 Çeribaşı
 Çeriközü
+Çerkes
 Çerkeş
 Çerkeşli
 Çerkezfındıcak
@@ -6302,6 +6194,7 @@ Dağbağ
 Dağbaşı
 Dağbek
 Dağbelen
+Dağbeli
 Dağbelören
 Dağcı
 Dağcılar
@@ -6530,6 +6423,7 @@ Darıyeri Bakacak
 Darıyeri Hasanbey
 Darıyeri Mengencik
 Darıyeri Yörükler
+Darıyerihasanbey
 Darirecep
 Darkale
 Darköprü
@@ -6545,6 +6439,7 @@ Davılgı
 Davraz
 Davulalan
 Davulbaz
+Davulga
 Davulhüyük
 Davulköy
 Davulku
@@ -6806,6 +6701,7 @@ Demiryol
 Demiryurt
 Demokrasi
 Demokrsi
+Demre
 Demrek
 Dendil
 Dengeli
@@ -6972,6 +6868,7 @@ Dervişiye
 Dervişler
 Dervişli
 Dervişpaşa
+Destek
 Destek Merkez
 Deşdemir
 Deştiğin
@@ -6984,6 +6881,7 @@ Devecik
 Devecikargın
 Devecikonağı
 Deveciler
+Devecipınar
 Devecipınarı
 Deveciuşağı
 Deveçatağı
@@ -7223,6 +7121,7 @@ Doğansu
 Doğanşah
 Doğanşar
 Doğanşehir
+Doğantarla
 Doğantaş
 Doğantepe
 Doğanyayla
@@ -7249,6 +7148,7 @@ Doğu
 Doğu İstasyon
 Doğu Kent
 Doğuayrancı
+Doğubayazit
 Doğubelenören
 Doğubeyazıt
 Doğuca
@@ -7267,6 +7167,7 @@ Doğuyeli
 Doktor Osman
 Dokumacılar
 Dokur
+Dokurcun
 Dokuz
 Dokuz Eylül
 Dokuz Mayıs
@@ -7658,6 +7559,7 @@ Düzyurt
 Ebecik
 Ebegümeci
 Ebeköy
+Eber
 Ebubekir
 Ebuishak
 Ebulhayır
@@ -8163,6 +8065,7 @@ Erkeç
 Erkekarpa
 Erkekli
 Erkeksu
+Erkenek
 Erkenez
 Erkent
 Erkilet
@@ -8407,6 +8310,7 @@ Eskiyassıpınar
 Eskiyayla
 Eskiyaylacık
 Eskiyol
+Eskiyörük
 Eskiyurt
 Eskiyüreğil
 Eskiyürük
@@ -8550,6 +8454,7 @@ Ezentere
 Ezgil
 Eziler
 Ezine
+Ezinepazar
 Fabrika
 Fabrikalar
 Fadıl
@@ -8790,6 +8695,7 @@ Gazikemal
 Gazikent
 Gaziköy
 Gaziler
+Gazimagusa
 Gazimahbup
 Gazimehmet
 Gazimihal
@@ -8815,6 +8721,7 @@ Gebeler
 Gebeli
 Gebelikatran
 Gebelli
+Geben
 Gebeş
 Gebeşler
 Gebeşli
@@ -9230,6 +9137,7 @@ Göknebi
 Gökoğlan
 Gökoğlu
 Gökomuz
+Gökova
 Gökömer
 Gökören
 Gököz
@@ -9324,6 +9232,7 @@ Gölpınarlar
 Göltarla
 Göltepe
 Göltepesi
+Göltürkbükü
 Gölüstü
 Gölyaka
 Gölyanı
@@ -9382,6 +9291,7 @@ Görmez
 Görpe
 Görük
 Görümcek
+Görümlü
 Göründü
 Görünmez
 Görünmezkale
@@ -9397,6 +9307,7 @@ Gövrecik
 Gövük
 Göydün
 Göyne
+Göynem
 Göynücek
 Göynük
 Göynükçukuru
@@ -9846,6 +9757,7 @@ Gürecülü
 Güresen
 Güresin
 Güreş
+Güreşçi
 Güreşen
 Güreşköy
 Güreşyeri
@@ -10420,6 +10332,7 @@ Hamamüstü
 Hamascık
 Hamdibey
 Hamdiköy
+Hamdilli
 Hamdiye
 Hamidabat
 Hamide
@@ -10818,6 +10731,7 @@ Hıdırbali
 Hıdırbey
 Hıdırbeyli
 Hıdırca
+Hıdırdivan
 Hıdırdivanı
 Hıdırellez
 Hıdırköy
@@ -11122,8 +11036,10 @@ Ilıpınar
 Ilısılık
 Ilısu
 Ilışar
+Irak
 Irgat
 Irlamaz
+Irlıganlı
 Irmaç
 Irmak
 Irmakboyu
@@ -11217,6 +11133,7 @@ Izgar
 İçboğaz
 İçdedeler
 İçdere
+İçeriçumra
 İçerisu
 İçerişehir
 İçgeçit
@@ -11537,6 +11454,7 @@ Izgar
 İnpınar
 İnpiri
 İnsu
+İnsuyu
 İntepe
 İntizam
 İnziloğlu
@@ -11697,6 +11615,7 @@ K Karabekir
 K0başlar
 Kaba
 Kabaağaç
+Kabaağaçkıran
 Kabaarmut
 Kababel
 Kabaca
@@ -12164,6 +12083,7 @@ Karabeyli
 Karabezirgan
 Karabıyık
 Karabıyıklı
+Karabiga
 Karabodur
 Karaboğaz
 Karaboncuk
@@ -12305,6 +12225,7 @@ Karaduraklı
 Karadurmuşlu
 Karadut
 Karaduvar
+Karaelbistan
 Karaelli
 Karaelmacık
 Karaelmas
@@ -12417,6 +12338,7 @@ Karakeşli
 Karakıl
 Karakılıç
 Karakılıçlı
+Karakılınçlı
 Karakıran
 Karakırıklar
 Karakısık
@@ -12493,6 +12415,7 @@ Karamelik
 Karamesutlu
 Karameşe
 Karamık
+Karamıkkaracaören
 Karamolla
 Karamollauşağı
 Karamuklu
@@ -12689,6 +12612,7 @@ Karlıdere
 Karlık
 Karlıktepe
 Karlıova
+Karlısu
 Karlıtepe
 Karlıyamaç
 Karlıyayla
@@ -12982,6 +12906,7 @@ Kayalıdere
 Kayalık
 Kayalıkale
 Kayalıköy
+Kayalıoğlu
 Kayalıpınar
 Kayalısu
 Kayalıyokuş
@@ -13466,6 +13391,7 @@ Kılıçpınarı
 Kılıçtaşı
 Kılıçtutan
 Kılıçyaka
+Kılılı
 Kılınçarslan
 Kılınçkaya
 Kılınçoğlu
@@ -13798,6 +13724,7 @@ Kızıldikme
 Kızıleğrek
 Kızıleller
 Kızılelma
+Kızılen
 Kızıleniş
 Kızılgeçit
 Kızılgedik
@@ -13860,6 +13787,7 @@ Kızılyaka
 Kızılyar
 Kızılyer
 Kızılyusuf
+Kızkalesi
 Kızkapan
 Kızkapanlı
 Kızkaraca
@@ -13874,6 +13802,7 @@ Kızlarpınarı
 Kızlarsekisi
 Kızmusa
 Kıznefer
+Kızoğlu
 Kızören
 Kızpınar
 Kızseki
@@ -14036,6 +13965,8 @@ Kocaoluk
 Kocaova
 Kocaömerli
 Kocaören
+Kocaöz
+Kocaözü
 Kocapaşa
 Kocapınar
 Kocareis
@@ -14158,6 +14089,7 @@ Kolsuz
 Koltan
 Koltucak
 Koltuk
+Kolukısa
 Koman
 Komlar
 Komşular
@@ -14190,6 +14122,7 @@ Konducak
 Kongul
 Kongur
 Kongurca
+Konubekler
 Konuk
 Konukcu
 Konukça
@@ -14569,6 +14502,7 @@ Köşençiftliği
 Köşeyolu
 Köşk
 Köşk Köy
+Köşk Köyü
 Köşker
 Köşkerler
 Köşkerli
@@ -14685,6 +14619,7 @@ Kumkısık
 Kumköprü
 Kumköy
 Kumkuyu
+Kumkuyucak
 Kumla
 Kumla Güzelyalı
 Kumla Memireis
@@ -14784,6 +14719,7 @@ Kurtkayı
 Kurtkovan
 Kurtkoy
 Kurtköy
+Kurtkulağı
 Kurtlar
 Kurtlu
 Kurtluca
@@ -14816,6 +14752,7 @@ Kurucaabat
 Kurucabel
 Kurucahüyük
 Kurucalı
+Kurucan
 Kurucaoluk
 Kurucaova
 Kurucaören
@@ -14851,6 +14788,7 @@ Kurusarı
 Kuruseki
 Kurutelek
 Kurutepe
+Kurutilek
 Kurutlutepe
 Kuruttaş
 Kuruyaka
@@ -15443,6 +15381,7 @@ Lımanköy
 Lice
 Liman
 Limanağzı
+Limandere
 Limanköy
 Limanresi
 Limonlu
@@ -15476,6 +15415,7 @@ Madenboyu
 Madenciler
 Madencioğlu
 Madendere
+Madenköprübaşı
 Madenköy
 Madenler
 Madenli
@@ -15533,6 +15473,7 @@ Mahyalar
 Mahzen
 Makaracı
 Makasalanı
+Makedonya
 Makif
 Makif Ersoy
 Makifersoy
@@ -15655,6 +15596,7 @@ Mecidiye
 Mecidiyekavak
 Mecidiyeköy
 Mecitözü
+Medar
 Medegöz
 Medeni
 Medet
@@ -15977,6 +15919,7 @@ Mirahmet
 Mirahor
 Mircekiraz
 Mirza Mehmet
+Mirzaağa
 Mirzabey
 Mirzaçelebi
 Mirzan
@@ -15985,6 +15928,7 @@ Mirzeoğlu
 Misafirli
 Misakça
 Misakı Milli
+Misinli
 Miskale
 Mislerovacığı
 Misvak
@@ -16057,6 +16001,7 @@ Molu
 Moralı
 Moralılar
 Morcalı
+Mordoğan
 Morhamam
 Morkaya
 Morkoyun
@@ -16380,6 +16325,7 @@ Nasuhbey
 Nasuhdede
 Nasuhlar
 Nasuhoğlu
+Naşa
 Naşlar
 Navsaklar
 Naydın
@@ -16861,6 +16807,7 @@ Ovademirler
 Ovadüzü
 Ovaesemen
 Ovakavagi
+Ovakent
 Ovakışlacık
 Ovakozlu
 Ovaköseler
@@ -16984,6 +16931,7 @@ Ozmuş
 Öndül
 Önerler
 Önerli
+Önsen
 Önsenhopuru
 Örcün
 Örcünlü
@@ -17000,6 +16948,7 @@ Ozmuş
 Örenbaşı
 Örenbel
 Örenboyalı
+Örenburç
 Örence
 Örencik
 Örençay
@@ -17175,6 +17124,7 @@ Palandökenalesi
 Palangıç
 Palanlı
 Palantepe
+Palas
 Palaz
 Palazlar
 Palazlı
@@ -17273,6 +17223,7 @@ Payköy
 Payveren
 Pazar
 Pazar Yukarı
+Pazarağaç
 Pazaraltı
 Pazaraşağı
 Pazarbaşı
@@ -17643,6 +17594,7 @@ Sadıkköy
 Sadıklar
 Sadıklı
 Sadıroğlu
+Sadrazamnköy
 Safa
 Safaalan
 Safalı
@@ -17702,8 +17654,10 @@ Sahil Ceylan
 Sahil Kılıçlı
 Sahilevleri
 Sahilkent
+Sahilkılınçlı
 Sahilköy
 Sahiller
+Sahinkayası
 Sahip
 Sahipata
 Sahraı Cedid
@@ -17741,6 +17695,7 @@ Sakarkaya
 Sakarlı
 Sakarya
 Sakça
+Sakçagöze
 Sakız
 Sakızcılar
 Sakızlı
@@ -17867,6 +17822,7 @@ Sancakkale
 Sancaklar
 Sancaklı
 Sancaklıçeşmebaşı
+Sancaklıiğdecik
 Sancaklıkayadibi
 Sancaklıtepe
 Sancaklıuzunçınar
@@ -18063,6 +18019,7 @@ Sarıkavak
 Sarıkaya
 Sarıkayalar
 Sarıkeçili
+Sarıkemer
 Sarıkız
 Sarıkızlı
 Sarıkoç
@@ -18512,6 +18469,7 @@ Sevimli
 Sevincer
 Sevinç
 Sevinçbey
+Sevinçköy
 Sevinçli
 Sevinçören
 Sevindik
@@ -18675,6 +18633,7 @@ Sıvatpınar
 Sıvgın
 Sıyrındı
 Sızan
+Sızma
 Sidre
 Siğilli
 Silahtar
@@ -18700,6 +18659,7 @@ Sinanköy
 Sinanlı
 Sinanlıbilalli
 Sinanoba
+Sinanoğlu
 Sinanözü
 Sinanpaşa
 Sinantekke
@@ -19034,6 +18994,7 @@ Sunay
 Suncuk
 Sundura
 Sundurlu
+Sungu
 Sungur
 Sungur M
 Sungurbeyli
@@ -19044,6 +19005,7 @@ Sungurpaşa
 Sunullah
 Suphanverdi
 Sur
+Suriye Sınır Bölgesi
 Surtepe
 Suruç
 Sururi
@@ -19117,6 +19079,7 @@ Sülük
 Sülüklü
 Sülüklügöl
 Sülümenli
+Sülün
 Sülünkaş
 Sülünkaya
 Sülüntaş
@@ -19752,6 +19715,7 @@ Tarlaören
 Tarlatepe
 Tarsus
 Tartaşık
+Tartışık
 Taskopru
 Tasköy
 Tasmacı
@@ -20074,6 +20038,7 @@ Temrek
 Temrenli
 Temrezli
 Temurağa
+Temurşeyh
 Temüklü
 Temürköy
 Temürtaht
@@ -20285,6 +20250,7 @@ Tokluca
 Toklucak
 Toklukaya
 Toklular
+Toklumen
 Tokmaden
 Tokmak
 Tokmaklar
@@ -20883,6 +20849,7 @@ Uzakkışla
 Uzbanlar
 Uzgaç
 Uzgider
+Uzgörür
 Uzgur
 Uzkara
 Uzla
@@ -21098,6 +21065,7 @@ Uzunziyaret
 Üsküpdere
 Üstatlar
 Üstündal
+Üstünler
 Üstüntaş
 Üstyayla
 Üşümüş
@@ -21475,6 +21443,7 @@ Yamandere
 Yamankaya
 Yamanlar
 Yamanlı
+Yamanyurt
 Yamçılı
 Yamukören
 Yanal
@@ -21749,6 +21718,7 @@ Yaylacılı
 Yaylaçatı
 Yaylaçayı
 Yaylaçayır
+Yaylaçayırı
 Yayladağ
 Yayladağı
 Yayladalı
@@ -21908,6 +21878,7 @@ Yeğenağa
 Yeğenalesi
 Yeğenbey
 Yeğencik
+Yeğenderesi
 Yeğenler
 Yeğenli
 Yeğenoba
@@ -22258,6 +22229,7 @@ Yeşilbağ
 Yeşilbağlar
 Yeşilbahçe
 Yeşilbarak
+Yeşilbaşköy
 Yeşilbayır
 Yeşilbelde
 Yeşilbelen
@@ -22319,6 +22291,7 @@ Yeşiltepe
 Yeşiltömek
 Yeşilvadi
 Yeşilyaka
+Yeşilyalı
 Yeşilyamaç
 Yeşilyayla
 Yeşilyazı
@@ -22540,6 +22513,7 @@ Yörük Selim
 Yörükali
 Yörükatlı
 Yörükkaracaören
+Yörükkeçidere
 Yörükkırka
 Yörükköy
 Yörükler
@@ -22661,6 +22635,7 @@ Yukarıbozan
 Yukarıbozkuyu
 Yukarıbucak
 Yukarıbudak
+Yukarıburadere
 Yukarıburnaz
 Yukarıbük
 Yukarıcambaz
@@ -22807,6 +22782,7 @@ Yukarıkalabak
 Yukarıkalamış
 Yukarıkale
 Yukarıkalecik
+Yukarıkaleoba
 Yukarıkamışlı
 Yukarıkanara
 Yukarıkanatlı
@@ -23023,6 +22999,7 @@ Yumurtatepe
 Yunacık
 Yunak
 Yunakdere
+Yunanistan
 Yundalan
 Yuntdağıköseler
 Yunus
@@ -23236,6 +23213,7 @@ Zeytinbağı
 Zeytinburnu
 Zeytincik
 Zeytinçukuru
+Zeytindağ
 Zeytindere
 Zeytineli
 Zeytinköy
@@ -23287,7 +23265,7 @@ Zorlar
 Zorlu
 Zöhrap
 Zöhrecik
-Zumrutevler
+Zümrütevler
 Zuvar
 Zübeyde Hanım
 Züferbey
@@ -23297,6 +23275,5 @@ Zülfikar
 Zülfikarköy
 Zülüflühan
 Zümrüt
-Zümrütevler
 Zümrütköy
 Zümrütova
